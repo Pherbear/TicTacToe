@@ -1,6 +1,9 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import React, { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,3 +23,4 @@ export default function RootLayout({
     </html>
   )
 }
+
